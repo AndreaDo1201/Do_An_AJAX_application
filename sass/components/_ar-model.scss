@@ -1,12 +1,12 @@
 // Customize our own hotspot
-@media screen and (min-width: 768px) { 
-.still-image {
-  img {
-    display: none;
-  }
+
+model-viewer{
+  display: none;
 }
 
-  model-viewer {
+@media screen and (min-width: 768px) {
+    model-viewer {
+    display: block;
     width: auto;
     max-width: 1200px;
     height: 700px;
@@ -88,5 +88,4 @@
       transform: translateX(-100px);
     }
   }
-}
-
+  }
