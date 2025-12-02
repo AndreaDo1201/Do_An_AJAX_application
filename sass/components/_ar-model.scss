@@ -6,10 +6,6 @@
   }
 }
 
-.model-controller {
-  display: block;
-}
-
   model-viewer {
     width: auto;
     max-width: 1200px;
@@ -25,7 +21,6 @@
     width: 45px;
     height: 38px;
     transition: all 1s ease-in-out;
-    display: none;
   }
 
   .Hotspot:not([data-visible]) {

@@ -4,8 +4,10 @@
   }
 }
 
-.model-controller {
-    model-viewer {
-        display: none;
-    }
+@media screen and (min-width: 768px) {
+    .still-image {
+  img {
+    display: none;
+  }
+}
 }
